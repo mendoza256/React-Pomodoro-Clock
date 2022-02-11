@@ -3,7 +3,7 @@
    License: none (public domain)
 */
 
-/* html, body, div, span, applet, object, iframe,
+html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -22,9 +22,9 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-} */
+}
 /* HTML5 display-role reset for older browsers */
-/* article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -45,15 +45,15 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-} */
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 :root {
-	--main-color-100: #66bfbf;
+	--main-color-100: #f77d97;
 	--neutral-color-100: #eaf6f6;
 	--neutral-color-200: #fcfefe;
-	--sec-color: #f76b8a;
+	--sec-color: #ff2f5c;
 }
 
 #app {
@@ -62,13 +62,13 @@ table {
     display: flex;
     align-items: center;
     justify-content: center;
-	background-color: var(--neutral-color-200);
+	background-color: var(--main-color-100);
 	font-family: 'Roboto', sans-serif;
 }
 
 #clock {
-	width: 80vw;
-	background-color: var(--main-color-100);
+	width: 540px;
+	background-color: var(--sec-color);
 	padding: 2rem;
 	border-radius: 2rem;
 	color: var(--neutral-color-200);
